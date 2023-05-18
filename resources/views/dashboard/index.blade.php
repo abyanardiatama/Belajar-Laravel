@@ -6,5 +6,6 @@
 </div>
 </div>
   <h1 class="h2">Monggo Pinarak</h1>
+  <p>Monggo Pinarak</p>
 </div>
 @endsection

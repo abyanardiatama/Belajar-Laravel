@@ -27,6 +27,14 @@
           </a>
         </li>
       </ul>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('dashboard/categories*') ? 'active' : '' }}" href="/dashboard/categories">
+            <span data-feather="file-text" class="align-text-bottom"></span>
+            Edit User
+          </a>
+        </li>
+      </ul>
       @endcan
     </div>
 </nav>
